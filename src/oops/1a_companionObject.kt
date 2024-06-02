@@ -2,7 +2,7 @@ package oops
 
 /*we make objects if we have to call the method or access the class members.
  We access the members of the class using the object only.*/
-/*Companion Object in Kotlin is a way to access the class members using class names only.
+/*Companies Objects Are the Same as Objects But Declared Within a Class2. Companion Object in Kotlin is a way to access the class members using class names only.
 There is no requirement for an instance of the class in this scenario.*/
 
 class Person {
