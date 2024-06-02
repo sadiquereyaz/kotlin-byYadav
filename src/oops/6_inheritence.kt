@@ -16,7 +16,7 @@ class Human : Animal() {
 }
 
 fun main() {
-    var aisha = Human()
-    println("No of legs and Hand aisha have: ${aisha.limbs}")
-    aisha.run()
+    var humanObj = Human()
+    println("No of legs and Hand Human have: ${humanObj.limbs}")
+    humanObj.run()
 }

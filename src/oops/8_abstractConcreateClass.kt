@@ -1,14 +1,14 @@
-//Abstract class: incomplete class i.e its methods may have no body
+//Abstract class: incomplete class i.e. its methods may have nobody
 //An abstract class is a class that is declared abstract—it may or may not include abstract methods.
-// Abstract classes cannot be instantiated, but they can be subclassed.
-// An abstract method is a method that is declared without an implementation (without braces, and followed by a semicolon)
-//When an abstract class is subclassed, the subclass usually provides implementations for all of the abstract methods in its parent class
+// Abstract classes (or object of abstract class) cannot be instantiated directly, but they can be subclassed.
+// An abstract method is a method that is declared without an implementation in abstract class (without braces, and followed by a semicolon)
+//When an abstract class is subclassed, the subclass usually provides implementations for all the abstract methods in its parent class
 
 package oops
 
 abstract class Animals {
 
-    //concreate method
+    //concrete method
     fun eat() {
         println("I can Eat")
     }

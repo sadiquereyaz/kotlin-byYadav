@@ -1,8 +1,8 @@
 package  oops
 
-//Interface is similar to Abstract but it can be implemented by multiple subclasses and it cannot have state
+//Interface is similar to Abstract, but it Cloneablestate
 
-interface myInterface {
+interface MyInterface {
     fun m1()   //but here we don't need to mention abstract keywords'
     fun m2() {
         println("mrthod 2")
@@ -12,11 +12,11 @@ interface myInterface {
     val p1: String
 }
 
-interface  Clonable{
+interface  Cloneable {
     fun clone()
 }
 
-class Child1 : myInterface, Clonable {
+class Child1 : MyInterface, Cloneable {
     override val p1: String = "this is a string"
     override fun m1() {
         println("mrthod 1")
